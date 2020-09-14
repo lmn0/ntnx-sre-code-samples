@@ -1,4 +1,14 @@
 #########################################################################
+#  Manage PD Script                                                     #
+#  Filename: manage_pd_v2.py                                            #
+#  Script Version: 1.0.0                                                #
+#########################################################################
+#  Prerequisites:                                                       #
+#  1. Access to CVM shell                                               #
+#  2. REST API version 2.0                                              #
+#  3. admin password to Prism Element                                   #
+#########################################################################
+#  Synopsis                                                             #
 #  This script will assist in listing all the protection domains.       #
 #  It will ask you for your input on selecting the PD.                  #
 #  You may select the PDs based on the following formats:               #
@@ -7,8 +17,6 @@
 #               - Group of numbers, for ex: 1-4, 7-10                   #
 #  After selecting the Protection Domains, it will activate and destroy #
 #  the selected PDs on the cluster where this script is being run       #
-#########################################################################
-
 #########################################################################
 # Disclaimer                                                            #
 # This code is intended as a standalone example. Subject to licensing   #
